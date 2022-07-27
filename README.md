@@ -12,3 +12,4 @@ Share your post acrosss blogging platforms like dev.to, hashnode and medium with
 1. Next.js.
 2. Tailwind.
 3. Prisma
+4. EsLint , prettier and husky to maintain code standards
