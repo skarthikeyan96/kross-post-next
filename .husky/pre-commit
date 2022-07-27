@@ -11,9 +11,10 @@ npx lint-staged ||
 npm run check-format ||
 (
     echo '🤢🤮🤢🤮 Its F**KING RAW - Your styling looks disgusting. 🤢🤮🤢🤮
-            Prettier Check Failed. Running npm run format now.';
+            Prettier Check Failed. Running npm run format and commiting the files now.';
 
     npm run update-format
+
    
 )
 
