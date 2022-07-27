@@ -1,3 +1,7 @@
 # Ignore artifacts:
 build
 coverage
+.next
+.eslintrc.json
+package.json
+# tsconfig.paths.json

@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "check-types": "tsc --pretty --noEmit",
+    "check-format": "prettier --check '{pages,components}/*.{ts,tsx}'",
+    "update-format": "prettier --write '{pages,components}/*.{ts,tsx}'"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
