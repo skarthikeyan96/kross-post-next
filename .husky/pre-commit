@@ -14,7 +14,7 @@ npm run check-format ||
             Prettier Check Failed. Running npm run format and commiting the files now.';
 
     npm run update-format
-
+    git add . 
    
 )
 
