@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
@@ -9,12 +9,10 @@ const Home: NextPage = () => {
         </div>
         <div>
           <button className="rounded border-2 border-black mr-2 px-8 py-2">
-            {' '}
-            Login{' '}
+            Login
           </button>
           <button className="rounded border-2 border-black mr-2 px-8 py-2">
-            {' '}
-            Register{' '}
+            Register
           </button>
         </div>
       </div>
@@ -23,19 +21,17 @@ const Home: NextPage = () => {
         style={{ height: `calc(100vh - 200px)` }}
       >
         <h1 className="text-6xl font-bold pb-4">
-          {' '}
-          <span className=" text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text">
-            Cross posting{' '}
-          </span>{' '}
-          made Easy !!!{' '}
+          <span className=" text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text mr-4">
+            Cross posting
+          </span>
+          made Easy !!!
         </h1>
         <p>
-          {' '}
-          Share your content across Dev.to, Medium and Hashnode with one click.{' '}
+          Share your content across Dev.to, Medium and Hashnode with one click.
         </p>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
